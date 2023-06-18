@@ -2,111 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kittendust</title>
-  <!-- Bootstrap CSS -->
+  <title>Kitten Dust</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="includes/style.css">
+  <link rel="icon" href="img/Icon.png" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    body {background-image: url('img/Background.webp');}
+  </style>
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Kittendust Galery</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/Icon.png" alt="Icon" width="70px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="includes/Galery.html">GALERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="includes/Ucup.html">UCUP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="includes/Etten.html">ETTEN</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-
-  <!-- Home Section -->
-  <section id="home" class="py-5 text-center">
-    <div class="container">
-      <h1>Selamat datang di Galeri Kittendust</h1>
-      <p class="lead">Berisi foto-foto kisah cinta kami</p>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="py-5">
-    <div class="container">
-      <h2 class="text-center">Foto</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img src="img/image1.jpg" class="card-img-top" alt="Image 1">
-            <div class="card-body">
-              <h5 class="card-title">GOR Date</h5>
-              <p class="card-text">Foto pas di GOR</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img src="img/image2.jpg" class="card-img-top" alt="Image 2">
-            <div class="card-body">
-              <h5 class="card-title">GOR Date</h5>
-              <p class="card-text">Sama aja cuma beda foto</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img src="img/image3.jpg" class="card-img-top" alt="Image 3">
-            <div class="card-body">
-              <h5 class="card-title">USU Date</h5>
-              <p class="card-text">OALAAAAAAAAA</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <!-- <section id="contact" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center">Contact Us</h2>
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <form>
-            <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Your Email</label>
-              <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <p>&copy; Website KittenDust. Cuma buat Ucup dan Etten❤.</p>
-    </div>
-  </footer>
-
-  <!-- Bootstrap JS -->
+  <script src="includes/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

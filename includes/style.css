@@ -1,0 +1,5 @@
+.navbar {transition: background-color 0.3s ease-in-out;}
+.navbar-bg {background-color: #3b3b3b; /* Ganti dengan warna background yang Anda inginkan */}
+.navbar-nav .nav-link {font-size: 20px; /* Ubah ukuran teks sesuai keinginan Anda */}
+.navbar-nav .nav-item .nav-link {color: white; /* Warna tulisan untuk menu yang tidak aktif */}
+.navbar-nav .nav-item.active .nav-link {color: purple; /* Warna tulisan untuk menu yang aktif */}
