@@ -3,3 +3,6 @@
 .navbar-nav .nav-link {font-size: 20px; /* Ubah ukuran teks sesuai keinginan Anda */}
 .navbar-nav .nav-item .nav-link {color: white; /* Warna tulisan untuk menu yang tidak aktif */}
 .navbar-nav .nav-item.active .nav-link {color: purple; /* Warna tulisan untuk menu yang aktif */}
+.navbar-brand img {margin-left: -50px; /* Sesuaikan nilai ini untuk menggeser ikon ke kiri */  }
+.follow {background-color: purple; color: white; border-color: purple; font-size: 20px; border-radius: 50px;padding: 5px 20px;}
+.follow:hover {box-shadow: 0 0 10px purple;}
